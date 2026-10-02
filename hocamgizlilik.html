@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hocam – Gizlilik Politikası</title>
+<style>
+  :root { --bg:#ECE9E2; --card:#F7F7F2; --text:#141414; --muted:#7A766E; --accent:#2856C9; --line:#CFCAC0; --red:#D8312A; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#161616; --card:#222220; --text:#F2EFE8; --muted:#A39E94; --accent:#7FA2F2; --line:#3A3833; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:8px; }
+  .logo { width:56px; height:56px; border-radius:15px; flex:none; }
+  h1 { font-size:30px; line-height:1.15; margin:0; letter-spacing:-0.01em; font-weight:900; text-transform:uppercase; }
+  .date { color:var(--muted); font-size:14px; margin:4px 0 24px; }
+  .summary { background:#141414; color:#fff; border-radius:18px; padding:20px 22px; margin-bottom:24px; border-top:6px solid var(--red); }
+  .summary ul { margin:8px 0 0; padding-left:20px; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px 22px; margin-bottom:14px; }
+  h2 { font-size:18px; margin:0 0 6px; }
+  .muted { color:var(--muted); }
+  a { color:var(--accent); font-weight:600; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="logo" alt="" src="data:image/png;base64,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">
+    <h1>Hocam – Gizlilik Politikası</h1>
+  </header>
+  <p class="date">Son güncelleme: 3 Ekim 2026</p>
+
+  <div class="summary">
+    <strong>Kısaca:</strong> Hocam hiçbir kişisel veriyi toplamaz, geliştiricinin sunucusuna göndermez ve kimseyle paylaşmaz.
+    <ul>
+      <li>Öğrenciler, dersler, ölçüler, ödemeler, fotoğraflar ve sağlık formları yalnızca antrenörün telefonunda saklanır.</li>
+      <li>Hesap açmanız gerekmez; reklam, analiz aracı ya da takip yoktur. Uygulama internet olmadan çalışır.</li>
+      <li>Geliştiricinin bu verilere erişimi yoktur; otomatik bulut yedeği de yoktur.</li>
+    </ul>
+  </div>
+
+  <section>
+    <h2>1. Uygulama hangi bilgileri saklar?</h2>
+    <p>Hocam, kişisel antrenörlerin öğrenci takibi için kullandığı bir defterdir. Antrenörün girdiği şu bilgiler <strong>yalnızca cihazında</strong> saklanır:</p>
+    <ul>
+      <li>Öğrenci adı, telefon numarası, hedefi ve antrenörün yazdığı notlar</li>
+      <li>Ders paketleri, ders tarihleri, ders kayıtları (hareket, kilo, tekrar), programlar ve şablonlar</li>
+      <li>Ölçüler (kilo, yağ oranı, çevre ölçüleri), beslenme hedefleri ve ödemeler</li>
+      <li>İlerleme fotoğrafları ve hareket videoları (antrenör eklerse)</li>
+      <li>Sağlık beyanı formları ve ekrana atılan imzalar (antrenör doldurursa)</li>
+      <li>Antrenörün adı, logosu ve uygulama ayarları</li>
+    </ul>
+    <p>Bu bilgiler geliştiriciye ya da herhangi bir üçüncü tarafa <strong>iletilmez</strong>.</p>
+  </section>
+
+  <section>
+    <h2>2. İzinler</h2>
+    <ul>
+      <li><strong>Kamera ve mikrofon (isteğe bağlı):</strong> İlerleme fotoğrafı ve hareket videosu çekmek için. Görüntüler yalnızca cihazda saklanır.</li>
+      <li><strong>Fotoğraflar (isteğe bağlı):</strong> Galeriden fotoğraf, video ya da logo seçmek için. Yalnızca seçtiğiniz öğe uygulamaya alınır.</li>
+      <li><strong>Takvim (isteğe bağlı, yalnızca yazma):</strong> Planlanan dersleri iPhone Takvim'e eklemek için. Takviminiz okunmaz.</li>
+      <li><strong>Widget ve Dinamik Ada:</strong> Günün dersleri ve süren dersin sayacı, cihaz içindeki ortak bir alandan okunur; cihazdan çıkmaz.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Paylaşım ve yedek: kontrol sizde</h2>
+    <p>Program tahtası, ders özeti, aylık rapor, sağlık formu PDF'i ya da WhatsApp mesajı gibi içerikler <strong>yalnızca siz paylaş düğmesine bastığınızda</strong> ve seçtiğiniz uygulamaya (ör. WhatsApp) gönderilir. Hocam bunları kendiliğinden hiçbir yere göndermez.</p>
+    <p>"Yedek dosyası al" ile oluşturulan dosya, sizin seçtiğiniz yere (Dosyalar, AirDrop vb.) kaydedilir. iPhone'unuzun kendi iCloud yedeği açıksa uygulama verileri de Apple tarafından bu yedeğe dahil edilir.</p>
+  </section>
+
+  <section>
+    <h2>4. Öğrenci verileri ve KVKK</h2>
+    <p>Öğrencilerin bilgileri antrenörün kendi telefonunda tutulduğu için bu verilerin sorumlusu antrenördür (6698 sayılı KVKK). Uygulamadaki örnek onay metni bilgilendirme amaçlıdır, hukuki tavsiye değildir. Sağlık beyanı sorularına verilen cevaplar tıbbi değerlendirme yerine geçmez.</p>
+  </section>
+
+  <section>
+    <h2>5. Üçüncü taraf hizmetler, reklam ve takip</h2>
+    <p>Hocam; reklam, analiz (analytics), çökme raporlama ya da takip amaçlı hiçbir üçüncü taraf yazılım kullanmaz. Olası satın alımlar Apple üzerinden yapılır; ödeme bilgileriniz uygulamaya ya da geliştiriciye iletilmez.</p>
+    <p class="muted">Apple, App Store ve TestFlight üzerinden indirme sayıları ve (izin vermeniz hâlinde) anonim kullanım istatistikleri gibi bilgileri kendi gizlilik politikası kapsamında toplayabilir.</p>
+  </section>
+
+  <section>
+    <h2>6. Verilerin silinmesi</h2>
+    <p><em>Ayarlar → Tüm verileri sil</em> ile cihazdaki tüm öğrenci, ders, ölçü, ödeme, fotoğraf, video ve form kayıtları silinir. Bir öğrenciyi silmek, onun derslerini, ölçülerini, ödemelerini, fotoğraflarını ve formlarını da siler. Uygulamayı silmek tüm verileri kalıcı olarak siler.</p>
+  </section>
+
+  <section>
+    <h2>7. Değişiklikler ve iletişim</h2>
+    <p>Bu politika güncellenirse yeni sürüm bu sayfada yayınlanır ve "Son güncelleme" tarihi değişir.</p>
+    <p>Sorularınız için: <a href="mailto:mazzesincar@icloud.com">mazzesincar@icloud.com</a></p>
+  </section>
+</main>
+</body>
+</html>
